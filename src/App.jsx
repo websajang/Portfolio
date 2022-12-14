@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="lg:h-screen">
+      <div className="lg:h-screen max-w-screen overflow-hidden">
         <div className="p-3">
         <Navbar/>
         <h1 className="font-montserrat font-bold text-9xl">Hello.</h1>
