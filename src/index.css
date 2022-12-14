@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    body{
+
+        background-color: #e1dabd;
+        overflow: hidden;
+    }
+
+    
+    .wave {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: url(./assets/wave-black.png);
+        background-size: 1000px 100px;
+    }
+
+    .wave1 {
+        animation: animate 30s linear infinite;
+        z-index: 1000;
+        opacity: 1;
+        animation-delay: 0s;
+        bottom: 0;
+    }
+
+    @keyframes animate {
+        0%{
+            background-position-x: 0;
+        }
+
+        100%{
+            background-position-x: 1000px;
+        }
+    }
+
+    .wave2 {
+        animation: animate2 15s linear infinite;
+        z-index: 999;
+        opacity: 0.5;
+        animation-delay: -5s;
+        bottom: 10px;
+    }
+
+    @keyframes animate2 {
+        0%{
+            background-position-x: 0;
+        }
+
+        100%{
+            background-position-x: -1000px;
+        }
+    }
+
+    .wave3 {
+        animation: animate2 30s linear infinite;
+        z-index: 998;
+        opacity: 0.2;
+        animation-delay: -2s;
+        bottom: 15;
+    }
+
+    .wave4 {
+        animation: animate2 5s linear infinite;
+        z-index: 997;
+        opacity: 0.7;
+        animation-delay: -5s;
+        bottom: 20px;
+    }
+    
+
+    /*Hamburger*/
+    .button-one {
+      background: transparent;
+      border-radius: 1rem;
+    }
+
+    .button-one .line{
+        transition: 
+            y 225ms ease-in 225ms,
+            rotate 225ms ease-in,
+            opacity 0ms 225ms
+        ;
+        transform-origin: center;
+    }
+    
+    .button-one[aria-expanded="true"] .line{
+        transition: 
+            y 225ms ease-in,
+            rotate 225ms ease-in 225ms,
+            opacity 0ms 225ms
+        ;
+    }
+
+    .button-one[aria-expanded="true"] :is(.line-top, .line-bottom){
+        y: 45;
+    }
+
+    .button-one[aria-expanded="true"] .line-top{
+        rotate: 45deg;
+    }
+
+    .button-one[aria-expanded="true"] .line-bottom{
+        rotate: -45deg;
+    }
+
+    .button-one[aria-expanded="true"] .line-middle{
+        opacity: 0;
+    }
+
+  }
