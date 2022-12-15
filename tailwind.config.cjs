@@ -6,7 +6,9 @@ module.exports = {
   ],
   theme: {
     colors:{
-      'dutch-white': '#e1dabd'
+      'dutch-white': '#e1dabd',
+      'green-crayola': '#d0e37f',
+      'red': '#d1603d'
     },
     fontFamily: {
       'montserrat': ['Montserrat, Lato, sans-serif'],

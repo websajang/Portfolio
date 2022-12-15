@@ -10,10 +10,79 @@
     body{
 
         background-color: #e1dabd;
+        overflow-x: hidden;
         overflow: hidden;
     }
 
-    
+    /*Titulo Hello*/
+    .titulo-hello::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 80%;
+        width: 100%;
+        background-color: #e1dabd;
+        border-left: 2px solid #000;
+        animation: typing 1s steps(8) 1 forwards,
+                    typingbar 1s 2s infinite;
+    }
+
+    @keyframes typingbar {
+        0%{
+            opacity: 1
+        }
+        100%{
+            opacity: 0
+        }
+    }
+
+    @keyframes typing {
+
+        0%{
+            left: 0;
+        }
+
+        100%{
+            left: 100%;
+        }
+    }
+
+    /*Paragraph Hello*/
+
+    .p-hello::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #e1dabd;
+        border-left: 2px solid #000;
+        animation: typingp 1s steps(8) 1 forwards,
+                    typingbarp 1s 1.1s infinite;
+    }
+
+    @keyframes typingbarp {
+        0%{
+            opacity: 0
+        }
+        100%{
+            opacity: 0
+        }
+    }
+
+    @keyframes typingp {
+
+        0%{
+            left: 0;
+        }
+
+        100%{
+            left: 100%;
+        }
+    }
+
+    /*Waves*/
+
     .wave {
         position: absolute;
         bottom: 0;
