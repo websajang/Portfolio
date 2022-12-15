@@ -14,7 +14,7 @@ export default function Hello() {
                 opacity: 1,
                 transition: {duration: 5}
             }}
-            className="lg:h-screen min-h-screen max-w-screen overflow-hidden absolute top-0 left-0 w-full">
+            className="lg:h-screen min-h-screen max-w-screen overflow-hidden w-full">
             <div className="p-3">
                 <Navbar/>
                 <h1 className="inline titulo-hello relative font-montserrat font-bold text-7xl lg:text-9xl -z-50">Hello.</h1>

@@ -14,7 +14,7 @@ export default function Webpages() {
                 opacity: 1,
                 transition: {duration: 1}
             }}
-            className="max-w-screen min-h-screen bg-red absolute top-0 left-0 w-full">
+            className="max-w-screen min-h-screen bg-aeroblue overflow-hidden w-full">
             <div className="p-3">
                 <Navbar/>
                 <h1 className="inline titulo-webpages relative font-montserrat font-bold text-5xl lg:text-9xl -z-50">Webpages.</h1>

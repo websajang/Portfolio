@@ -8,7 +8,7 @@ module.exports = {
     colors:{
       'dutch-white': '#e1dabd',
       'green-crayola': '#d0e37f',
-      'red': '#d1603d',
+      'aeroblue': '#c0f8d1',
       'laurel': '#95a78d',
       'bone': '#c8c6af'
     },

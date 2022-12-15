@@ -14,7 +14,7 @@ export default function Stack() {
                 opacity: 1,
                 transition: {duration: 1}
             }}
-            className="max-w-screen min-h-screen bg-green-crayola absolute top-0 left-0 w-full">
+            className="max-w-screen min-h-screen bg-green-crayola overflow-hidden w-full">
             <div className="p-3">
                 <Navbar/>
                 <h1 className="inline titulo-stack relative font-montserrat font-bold text-7xl lg:text-9xl -z-50">Stack.</h1>
