@@ -3,7 +3,7 @@ import Waves from "./components/Waves"
 import Socials from "./components/Socials"
 import { motion } from 'framer-motion'
 
-export default function Webpages() {
+export default function Resumee() {
     return(
         <motion.div 
             initial={{y: "100%"}} 
@@ -14,12 +14,12 @@ export default function Webpages() {
                 opacity: 1,
                 transition: {duration: 1}
             }}
-            className="max-w-screen min-h-screen bg-red absolute top-0 left-0 w-full">
+            className="max-w-screen min-h-screen bg-laurel absolute top-0 left-0 w-full">
             <div className="p-3">
                 <Navbar/>
-                <h1 className="inline titulo-webpages relative font-montserrat font-bold text-5xl lg:text-9xl">Webpages.</h1>
+                <h1 className="inline titulo-resumee relative font-montserrat font-bold text-7xl lg:text-9xl">Resumee.</h1>
                 <div className="mt-5">
-                <p className="lg:pl-3 inline lg:p-webpages relative font-lexend text-xl lg:text-2xl">These are the webpages I made.</p>
+                <p className="lg:pl-3 inline lg:p-resumee relative font-lexend text-xl lg:text-2xl">This is my career path.</p>
                 </div>
                 <Socials/>
             </div>

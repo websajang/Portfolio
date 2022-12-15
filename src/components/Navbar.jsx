@@ -14,8 +14,8 @@ export default function Navbar () {
                 <a href="/" className="text-xl cursor-pointer hover:underline hover:underline-offset-8">Hello</a>
                 <a href="/stack" className="text-xl cursor-pointer hover:underline hover:underline-offset-8">Stack</a>
                 <a href="/webpages#" className="text-xl cursor-pointer hover:underline hover:underline-offset-8">Webpages</a>
-                <a href="/#" className="text-xl cursor-pointer hover:underline hover:underline-offset-8">Resumee</a>
-                <a href="/#" className="text-xl cursor-pointer hover:underline hover:underline-offset-8">Contact</a>
+                <a href="/resumee" className="text-xl cursor-pointer hover:underline hover:underline-offset-8">Resumee</a>
+                <a href="/contact" className="text-xl cursor-pointer hover:underline hover:underline-offset-8">Contact</a>
             </div>
         </>
     )

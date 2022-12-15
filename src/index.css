@@ -81,6 +81,277 @@
         }
     }
 
+     /*Titulo Stack*/
+     .titulo-stack::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 80%;
+        width: 100%;
+        background-color: #d0e37f;
+        border-left: 2px solid #000;
+        animation: typingstack 1s steps(8) 1 forwards,
+                    typingbarstack 1s 2s infinite;
+    }
+
+    @keyframes typingbarstack {
+        0%{
+            opacity: 1
+        }
+        100%{
+            opacity: 0
+        }
+    }
+
+    @keyframes typingstack {
+
+        0%{
+            left: 0;
+        }
+
+        100%{
+            left: 100%;
+        }
+    }
+
+    /*Paragraph Stack*/
+
+    .p-stack::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #d0e37f;
+        border-left: 2px solid #000;
+        animation: typingpstack 1s steps(8) 1 forwards,
+                    typingbarpstack 1s 1.1s infinite;
+    }
+
+    @keyframes typingbarpstack {
+        0%{
+            opacity: 0
+        }
+        100%{
+            opacity: 0
+        }
+    }
+
+    @keyframes typingpstack {
+
+        0%{
+            left: 0;
+        }
+
+        100%{
+            left: 100%;
+        }
+    }
+
+    /*Titulo Webpages*/
+    .titulo-webpages::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #d1603d;
+        border-left: 2px solid #000;
+        animation: typingwebpages 1s steps(8) 1 forwards,
+                    typingbarwebpages 1s 2s infinite;
+    }
+
+    @keyframes typingbarwebpages {
+        0%{
+            opacity: 1
+        }
+        100%{
+            opacity: 0
+        }
+    }
+
+    @keyframes typingwebpages {
+
+        0%{
+            left: 0;
+        }
+
+        100%{
+            left: 100%;
+        }
+    }
+
+    /*Paragraph Webpages*/
+
+    .p-webpages::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #d1603d;
+        border-left: 2px solid #000;
+        animation: typingp 1s steps(8) 1 forwards,
+                    typingbarp 1s 1.1s infinite;
+    }
+
+    @keyframes typingbarpwebpages {
+        0%{
+            opacity: 0
+        }
+        100%{
+            opacity: 0
+        }
+    }
+
+    @keyframes typingpwebpages {
+
+        0%{
+            left: 0;
+        }
+
+        100%{
+            left: 100%;
+        }
+    }
+
+
+    /*Titulo Resumee*/
+    .titulo-resumee::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 80%;
+        width: 100%;
+        background-color: #95a78d;
+        border-left: 2px solid #000;
+        animation: typingstackresumee 1s steps(8) 1 forwards,
+                    typingbarstackresumee 1s 2s infinite;
+    }
+
+    @keyframes typingbarstackresumee {
+        0%{
+            opacity: 1
+        }
+        100%{
+            opacity: 0
+        }
+    }
+
+    @keyframes typingstackresumee {
+
+        0%{
+            left: 0;
+        }
+
+        100%{
+            left: 100%;
+        }
+    }
+
+    /*Paragraph Resumee*/
+
+    .p-resumee::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #95a78d;
+        border-left: 2px solid #000;
+        animation: typingpstackresumee 1s steps(8) 1 forwards,
+                    typingbarpstackresumee 1s 1.1s infinite;
+    }
+
+    @keyframes typingbarpstackresumee {
+        0%{
+            opacity: 0
+        }
+        100%{
+            opacity: 0
+        }
+    }
+
+    @keyframes typingpstackresumee {
+
+        0%{
+            left: 0;
+        }
+
+        100%{
+            left: 100%;
+        }
+    }
+
+
+
+    /*Titulo Contact*/
+    .titulo-contact::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 80%;
+        width: 100%;
+        background-color: #c8c6af;
+        border-left: 2px solid #000;
+        animation: typingcontact 1s steps(8) 1 forwards,
+                    typingbarcontact 1s 2s infinite;
+    }
+
+    @keyframes typingbarcontact {
+        0%{
+            opacity: 1
+        }
+        100%{
+            opacity: 0
+        }
+    }
+
+    @keyframes typingcontact {
+
+        0%{
+            left: 0;
+        }
+
+        100%{
+            left: 100%;
+        }
+    }
+
+    /*Paragraph Resumee*/
+
+    .p-contact::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #c8c6af;
+        border-left: 2px solid #000;
+        animation: typingpcontact 1s steps(8) 1 forwards,
+                    typingbarpcontact 1s 1.1s infinite;
+    }
+
+    @keyframes typingbarpcontact {
+        0%{
+            opacity: 0
+        }
+        100%{
+            opacity: 0
+        }
+    }
+
+    @keyframes typingpcontact {
+
+        0%{
+            left: 0;
+        }
+
+        100%{
+            left: 100%;
+        }
+    }
+
     /*Waves*/
 
     .wave {

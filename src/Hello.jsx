@@ -18,7 +18,7 @@ export default function Hello() {
             <div className="p-3">
                 <Navbar/>
                 <h1 className="inline titulo-hello relative font-montserrat font-bold text-7xl lg:text-9xl">Hello.</h1>
-                <div>
+                <div className="mt-5">
                 <p className="lg:pl-3 inline lg:p-hello relative font-lexend text-xl lg:text-2xl">I'm David and I'm a Front End Developer.</p>
                 </div>
                 <Socials/>

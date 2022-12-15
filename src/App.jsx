@@ -3,6 +3,8 @@ import { AnimatePresence } from "framer-motion";
 import Hello from "./Hello"
 import Stack from "./Stack"
 import Webpages from "./Webpages";
+import Resumee from "./Resumee";
+import Contact from "./Contact";
 
 function App() {
 
@@ -15,8 +17,8 @@ function App() {
           <Route path="/" element={<Hello/>} />
           <Route path="/stack" element={<Stack/>} />
           <Route path="/webpages" element={<Webpages />} />
-          <Route path="/resumee" element={<Hello/>} />
-          <Route path="/contact" element={<Hello/>} />
+          <Route path="/resumee" element={<Resumee/>} />
+          <Route path="/contact" element={<Contact/>} />
         </Routes>
       </AnimatePresence>
     </div>
