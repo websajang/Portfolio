@@ -17,7 +17,7 @@ export default function Stack() {
             className="max-w-screen min-h-screen bg-green-crayola absolute top-0 left-0 w-full">
             <div className="p-3">
                 <Navbar/>
-                <h1 className="inline titulo-stack relative font-montserrat font-bold text-7xl lg:text-9xl">Stack.</h1>
+                <h1 className="inline titulo-stack relative font-montserrat font-bold text-7xl lg:text-9xl -z-50">Stack.</h1>
                 <div className="mt-5">
                 <p className="lg:pl-3 inline lg:p-stack relative font-lexend text-xl lg:text-2xl">These are the tecnologies I'm used to work with.</p>
                 </div>

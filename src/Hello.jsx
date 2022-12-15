@@ -17,7 +17,7 @@ export default function Hello() {
             className="lg:h-screen min-h-screen max-w-screen overflow-hidden absolute top-0 left-0 w-full">
             <div className="p-3">
                 <Navbar/>
-                <h1 className="inline titulo-hello relative font-montserrat font-bold text-7xl lg:text-9xl">Hello.</h1>
+                <h1 className="inline titulo-hello relative font-montserrat font-bold text-7xl lg:text-9xl -z-50">Hello.</h1>
                 <div className="mt-5">
                 <p className="lg:pl-3 inline lg:p-hello relative font-lexend text-xl lg:text-2xl">I'm David and I'm a Front End Developer.</p>
                 </div>

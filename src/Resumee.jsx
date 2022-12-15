@@ -17,7 +17,7 @@ export default function Resumee() {
             className="max-w-screen min-h-screen bg-laurel absolute top-0 left-0 w-full">
             <div className="p-3">
                 <Navbar/>
-                <h1 className="inline titulo-resumee relative font-montserrat font-bold text-7xl lg:text-9xl">Resumee.</h1>
+                <h1 className="inline titulo-resumee relative font-montserrat font-bold text-7xl lg:text-9xl -z-50">Resumee.</h1>
                 <div className="mt-5">
                 <p className="lg:pl-3 inline lg:p-resumee relative font-lexend text-xl lg:text-2xl">This is my career path.</p>
                 </div>

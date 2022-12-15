@@ -14,7 +14,8 @@ module.exports = {
     },
     fontFamily: {
       'montserrat': ['Montserrat, Lato, sans-serif'],
-      'lexend': ['Lexend, Lato, sans-serif']
+      'lexend': ['Lexend, Lato, sans-serif'],
+      'press': ['Press Start 2P, sans-serif'],
     },
     extend: {},
   },

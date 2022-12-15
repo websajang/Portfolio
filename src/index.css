@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -14,10 +15,59 @@
         overflow: hidden;
     }
 
+    /*Heart*/
+
+    .heart {
+        position: relative;
+        background: red;
+        height: 16px;
+        width: 16px;
+        transform: rotate(-45deg);
+    }
+
+    .heart::after {
+        position: absolute;
+        background: inherit;
+        border-radius: 50%;
+        content:'';
+        top: -50%;
+        left: 0;
+        height: 16px;
+        width: 16px;
+        z-index: 994;
+    }
+
+    .heart::before {
+        position: absolute;
+        background: inherit;
+        border-radius: 50%;
+        content:'';
+        top: 0;
+        right: -50%;
+        height: 16px;
+        width: 16px;
+        z-index: 994;
+    }
+
+    .heart:not(:active) {
+        animation: falling 8s 1;
+    }
+
+    @keyframes falling {
+        0%{
+            transform: translateY(0px);
+        }
+
+        100% {
+            transform: translateY(1000px);
+        }
+    }
+
     /*Titulo Hello*/
     .titulo-hello::after {
         content: "";
         position: absolute;
+        z-index: 0;
         left: 0;
         height: 80%;
         width: 100%;
@@ -42,8 +92,12 @@
             left: 0;
         }
 
+        95%{
+            background-color: #e1dabd;
+        }
         100%{
             left: 100%;
+            background-color: transparent;
         }
     }
 
@@ -85,6 +139,7 @@
      .titulo-stack::after {
         content: "";
         position: absolute;
+        z-index: 0;
         left: 0;
         height: 80%;
         width: 100%;
@@ -109,8 +164,12 @@
             left: 0;
         }
 
+        95%{
+            background-color: #d0e37f;
+        }
         100%{
             left: 100%;
+            background-color: transparent;
         }
     }
 
@@ -152,6 +211,7 @@
     .titulo-webpages::after {
         content: "";
         position: absolute;
+        z-index: 0;
         left: 0;
         height: 100%;
         width: 100%;
@@ -176,8 +236,12 @@
             left: 0;
         }
 
+        95%{
+            background-color: #d1603d;
+        }
         100%{
             left: 100%;
+            background-color: transparent;
         }
     }
 
@@ -220,6 +284,7 @@
     .titulo-resumee::after {
         content: "";
         position: absolute;
+        z-index: 0;
         left: 0;
         height: 80%;
         width: 100%;
@@ -244,8 +309,12 @@
             left: 0;
         }
 
+        95%{
+            background-color: #95a78d;
+        }
         100%{
             left: 100%;
+            background-color: transparent;
         }
     }
 
@@ -289,6 +358,7 @@
     .titulo-contact::after {
         content: "";
         position: absolute;
+        z-index: 0;
         left: 0;
         height: 80%;
         width: 100%;
@@ -303,7 +373,7 @@
             opacity: 1
         }
         100%{
-            opacity: 0
+            opacity: 0;
         }
     }
 
@@ -313,8 +383,12 @@
             left: 0;
         }
 
+        95%{
+            background-color: #c8c6af;
+        }
         100%{
             left: 100%;
+            background-color: transparent;
         }
     }
 

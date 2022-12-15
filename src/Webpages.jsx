@@ -17,7 +17,7 @@ export default function Webpages() {
             className="max-w-screen min-h-screen bg-red absolute top-0 left-0 w-full">
             <div className="p-3">
                 <Navbar/>
-                <h1 className="inline titulo-webpages relative font-montserrat font-bold text-5xl lg:text-9xl">Webpages.</h1>
+                <h1 className="inline titulo-webpages relative font-montserrat font-bold text-5xl lg:text-9xl -z-50">Webpages.</h1>
                 <div className="mt-5">
                 <p className="lg:pl-3 inline lg:p-webpages relative font-lexend text-xl lg:text-2xl">These are the webpages I made.</p>
                 </div>

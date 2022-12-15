@@ -17,7 +17,7 @@ export default function Contact() {
             className="max-w-screen min-h-screen bg-bone absolute top-0 left-0 w-full">
             <div className="p-3">
                 <Navbar/>
-                <h1 className="inline titulo-contact relative font-montserrat font-bold text-7xl lg:text-9xl">Contact.</h1>
+                <h1 className="inline titulo-contact relative font-montserrat font-bold text-7xl lg:text-9xl -z-50">Contact.</h1>
                 <div className="mt-5">
                 <p className="lg:pl-3 inline lg:p-contact relative font-lexend text-xl lg:text-2xl">These are the ways you can contact me.</p>
                 </div>
